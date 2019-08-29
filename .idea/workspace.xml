@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07a75a3f-65fd-424a-af76-d10fa14d1fef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/accueille.blade.php" afterPath="$PROJECT_DIR$/resources/views/accueille.blade.php" />
-    </list>
+    <list default="true" id="07a75a3f-65fd-424a-af76-d10fa14d1fef" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,8 +114,8 @@
       <file leaf-file-name="accueille.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/accueille.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="955">
-              <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            <state relative-caret-position="779">
+              <caret line="58" column="22" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <marker date="1567072236534" expanded="true" signature="9:24" ph="..." />
                 <marker date="1567072236534" expanded="true" signature="35:40" ph="..." />
@@ -641,12 +639,12 @@
       <workItem from="1566937903872" duration="7118000" />
       <workItem from="1566952303497" duration="23226000" />
       <workItem from="1567026308501" duration="200000" />
-      <workItem from="1567070770834" duration="1443000" />
+      <workItem from="1567070770834" duration="1737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515947000" />
+    <option name="totallyTimeSpent" value="516241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1069,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/accueille.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        <state relative-caret-position="779">
+          <caret line="58" column="22" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="58" selection-end-column="22" />
           <folding>
             <marker date="1567072236534" expanded="true" signature="9:24" ph="..." />
             <marker date="1567072236534" expanded="true" signature="35:40" ph="..." />
