@@ -14,8 +14,6 @@ class produitForm extends Form
     {
         $this
 
-
-
             ->add('nom', Field::TEXT, [
                 'rules' => 'required|min:3'
             ])
@@ -30,12 +28,13 @@ class produitForm extends Form
                 'rules' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
             ])
 
+            ->add('Qunatité', Field::NUMBER, [
+                'rules' => 'required|min:1'
+            ])
 
             ->add('prix', Field::NUMBER, [
                 'rules' => 'required|min:2'
             ])
-
-
 
             ->add('submit', 'submit', [
                 'label' =>'valider',

@@ -1,12 +1,12 @@
 @extends('admin.admin')
- @section('page')
+@section('page')
 
-     Produit
- @endsection
+    Produit
+@endsection
 @section('description')
 
     voire un produit
-    @endsection
+@endsection
 
 @section('CSS')
     <style>
@@ -46,15 +46,23 @@
                     {{$produit->prix}}
                 </div>
             </div>
-            </div>
+        </div>
 
-            <div class = " justify-content-center col-xs-12. col-sm-12. col-md-12 " >
-                <div class = "form-group" >
-                    <strong> </strong>
-
-                    <img src="{{ url('images/produit/'.$produit->image)}}" alt="" width="25%" height="25%">
-                </div>
+        <div class = "col-xs-12. col-sm-12. col-md-12" >
+            <div class = "form-group" >
+                <strong> Quantité: </strong>
+                {{$produit->qts}}
             </div>
+        </div>
+    </div>
+
+
+    <div class = " justify-content-center col-xs-12. col-sm-12. col-md-12 " >
+        <div class = "form-group" >
+            <strong> </strong>
+            <img src="{{ url('images/produit/'.$produit->image)}}" alt="" width="25%" height="25%">
+        </div>
+    </div>
 
 
 

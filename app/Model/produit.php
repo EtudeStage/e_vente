@@ -13,7 +13,7 @@ class produit extends Model
 
     protected $table ="produit";
 
-    protected $fillable= ['nom','prix','image', 'categorie_id'];
+    protected $fillable= ['nom','prix','qts','image','categorie_id'];
 
     public function getName() {
         return $this->getAttributeValue('nom');
@@ -23,5 +23,7 @@ class produit extends Model
         return $this->getAttributeValue('prix');
     }
 
-
+    public function getqts() {
+        return $this->getAttributeValue('qts');
+    }
 }

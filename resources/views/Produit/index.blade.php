@@ -54,6 +54,8 @@
 
             <th class="th-sm">Image</th>
 
+            <th class="th-sm">Qunatité</th>
+
             <th class="th-sm">Action</th>
 
         </tr>
@@ -72,6 +74,8 @@
                 <td>{{ $produit->prix}}</td>
 
                 <td> <img src="{{ url('images/produit/'.$produit->image)}}" alt="" width="50" height="50"> </td>
+
+                <td>{{ $produit->qts}}</td>
 
                 <td>
 

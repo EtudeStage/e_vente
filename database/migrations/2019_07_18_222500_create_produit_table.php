@@ -17,7 +17,6 @@ class CreateProduitTable extends Migration
             $table->Increments('id');
             $table->string('nom');
             $table->double('prix');
-            $table->double('nbrprod');
             $table->boolean ('nouveau')->default('1');
             $table->boolean('enpromotion')->default('0');
             $table->timestamps();
