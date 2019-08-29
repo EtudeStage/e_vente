@@ -20,7 +20,7 @@
     <div class="row">
 
         <div class="col-lg-12 margin-tb">
-           <div class="pull-right mb-3 " > <a class="btn btn-success btn-sm" href="{{ route('produit.create') }}"><i class="glyphicon glyphicon-plus"></i>Creé un produit</a>
+           <div class="pull-right mb-3 " > <a class="btn btn-success btn-sm" href="{{ route('produit.create') }}"><i class="glyphicon glyphicon-plus"></i>Crée un produit</a>
         </div>
             <div class="pull-left">
 

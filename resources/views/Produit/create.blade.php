@@ -3,7 +3,7 @@
     Produit
 @endsection
 @section('description')
-   créé un nouveau produit
+   crée un nouveau produit
 @endsection
 @section('CSS')
     <style>
