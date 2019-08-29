@@ -18,18 +18,20 @@ class produitForm extends Form
                 'rules' => 'required|min:3'
             ])
 
-            ->add('categorie', 'select', [
+            ->add('categorie_id', 'select', [
                 'choices' => $this->getValues(),
                 'rules' => 'required',
-                'empty_value' => '=== Selectionnez la categorie ==='
+                'empty_value' => '=== Selectionnez la categorie ===',
+                'label' => 'Categorie'
             ])
 
             ->add('image', Field::FILE, [
                 'rules' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
             ])
 
-            ->add('Qunatité', Field::NUMBER, [
-                'rules' => 'required|min:1'
+            ->add('qts', Field::NUMBER, [
+                'rules' => 'required|min:1',
+                'label' => 'Quantité'
             ])
 
             ->add('prix', Field::NUMBER, [
