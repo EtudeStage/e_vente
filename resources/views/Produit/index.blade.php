@@ -42,6 +42,8 @@
 
     @endif
 
+    {{$produits->count()}}
+
     <table class="table table-bordered">
 
         <tr>
@@ -65,7 +67,7 @@
 
             <tr>
 
-                <td>{{$produit->id }}</td>
+                <td> {{$produit->id }}</td>
 
                 <td>{{ $produit->nom }}</td>
 
