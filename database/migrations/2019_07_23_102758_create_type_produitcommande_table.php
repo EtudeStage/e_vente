@@ -15,7 +15,7 @@ class CreateTypeProduitcommandeTable extends Migration
     {
         Schema::create('type_produitcommande', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigIncrements('nbproduit');
+            $table->integer('nbproduit');
             $table->integer('produit_id')->unsigned();
             $table->integer('commande_id')->unsigned();
 

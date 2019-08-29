@@ -14,6 +14,8 @@ class AddLignecoommandeTable extends Migration
     public function up()
     {
         Schema::table('lignecommande', function (Blueprint $table) {
+            $table->integer( 'tax');
+            $table->integer( 'prixtotal');
             $table->integer( 'qts');
         });
     }
@@ -26,6 +28,8 @@ class AddLignecoommandeTable extends Migration
     public function down()
     {
         Schema::table('lignecommande', function (Blueprint $table) {
+            $table->dropColumn( 'tax');
+            $table->dropColumn( 'prixtotal');
             $table->dropColumn( 'qts');
         });
     }
