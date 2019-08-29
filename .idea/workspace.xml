@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a75a3f-65fd-424a-af76-d10fa14d1fef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,9 +117,9 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding>
-                <element signature="e#421#457#0#PHP" expanded="true" />
+                <element signature="e#425#461#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -632,12 +631,12 @@
       <workItem from="1566937903872" duration="7118000" />
       <workItem from="1566952303497" duration="23226000" />
       <workItem from="1567026308501" duration="200000" />
-      <workItem from="1567070770834" duration="644000" />
+      <workItem from="1567070770834" duration="829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515148000" />
+    <option name="totallyTimeSpent" value="515333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,9 +1059,9 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding>
-            <element signature="e#421#457#0#PHP" expanded="true" />
+            <element signature="e#425#461#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
