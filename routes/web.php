@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
 //jiv est bien présent bla bla
-=======
-//jiv est bien présent tot
->>>>>>> 410511c586c2cee7d68abb03cbede7b3df4beaee
 /*
 |--------------------------------------------------------------------------
 | Web Routes
