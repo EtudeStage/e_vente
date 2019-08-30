@@ -26,4 +26,11 @@ class produit extends Model
     public function getqts() {
         return $this->getAttributeValue('qts');
     }
+
+    /**
+     *
+     */
+    public  function categorie(){
+        return $this->belongsTo('App\Model\Categorie');
+    }
 }

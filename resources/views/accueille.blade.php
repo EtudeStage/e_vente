@@ -32,7 +32,7 @@
                             <div class="product-item men" style="position: absolute; left: 0; top: 0;">
                                 <div class="product discount product_filter" style="border-right: 1px solid rgb(100, 100, 100);">
                                     <div class="product_image">
-                                        <img src="{{asset('images/produit/'.$product->image)}}" alt="">
+                                        <img src="{{asset('images/produit/'.$product->image)}}" alt="" width="200" height="100">
                                     </div>
                                     <div class="favorite favorite_left"></div>
                                     {{--<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>--}}
@@ -68,7 +68,7 @@
 
 <style>
     .product_image img {
-        width: 255px !important;
+        width: 250px !important;
         height:260px !important;
     }
 </style>

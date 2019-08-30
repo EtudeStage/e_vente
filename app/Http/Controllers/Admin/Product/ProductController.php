@@ -20,9 +20,10 @@ class ProductController extends Controller
     {
         $products = DB::table('produit')
                ->join ('categorie','categorie.id','=','produit.categorie_id')
-               ->distinct()
+              ->distinct()
                ->select('produit.*','categorie.name')
                ->get();
+
         return view('Produit.index',[
             'produits' => $products,
         ]);
@@ -121,8 +122,6 @@ class ProductController extends Controller
                     'method'=>'PATCH',
                     'model'=>$produit
                 ]);
-
-
             return view('produit.edit',[
                 'form' => $form
             ]);
@@ -141,7 +140,7 @@ class ProductController extends Controller
      * @return \Illuminate\Http\RedirectResponse
      * @internal param Request $request
      */
-    public function update($id, FormBuilder $formBuilder)
+    public function update($id, FormBuilder $formBuilder, Request $request)
     {
         $form = $formBuilder->create(ProduitForm::class);
 
@@ -159,8 +158,18 @@ class ProductController extends Controller
 
         $produit = Produit::find($id);
 
+        $produit->fill($form->getFieldValues());
 
-        $produit->update($form->getFieldValues());
+        $imageName = $this->generateFileName() . '.' .$request->file('image')->getClientOriginalExtension();
+
+        $produit->fill([
+            'image' => $imageName
+        ]);
+
+        $request->file('image')->move(
+            base_path() . '/public/images/produit/', $imageName
+        );
+        $produit->update();
 
         return redirect()->route('produit.index')->With('Produit  est modifier');
     }
